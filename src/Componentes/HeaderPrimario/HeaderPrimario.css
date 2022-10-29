@@ -1,0 +1,22 @@
+.header-primario {
+    padding: 1% 0;
+    background: #ffdeb3;
+}
+
+.header-primario h1 {
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.icones-direita {
+    display: inline-block;
+    position: absolute; right: 30px;
+}
+
+.carrinho {
+    display: inline-block;
+    cursor: pointer;
+}

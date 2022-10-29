@@ -1,0 +1,47 @@
+.contatos {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.contatos ul, .contatos form {
+    display: inline-block;
+    font-size: 25px;
+    width: 50%;
+    vertical-align: top;
+}
+
+.contatos li {
+    margin: 40px 0;
+}
+
+.contatos svg {
+    position: relative; top: 15px;
+    margin-right: 4px;
+}
+
+.contatos label, .contanto textarea {
+    display: block;
+}
+
+.contatos textarea {
+    padding: 1%;
+    width: 100%;
+    margin: 0.5% 0 2% 0 
+}
+
+.contatos button {
+    width: 150px;
+    height: 40px;
+    background: blue;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.contatos button:hover {
+    background: purple;
+}
+
+.contatos button:active {
+    background: red;
+}

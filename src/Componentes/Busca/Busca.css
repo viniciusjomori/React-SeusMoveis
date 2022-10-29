@@ -1,0 +1,22 @@
+.busca {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.busca input {
+    margin-right: 8px;
+    background: none;
+    border: none;
+    height: 30px;
+    position: relative; bottom: 15px;
+    padding: 0 8px;
+}
+
+.busca .lupa {
+    padding: 2%;
+    display: inline-block;
+}
+
+.busca svg {
+    cursor: pointer;
+}

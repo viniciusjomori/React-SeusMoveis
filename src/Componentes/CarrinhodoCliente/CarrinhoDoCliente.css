@@ -1,0 +1,8 @@
+.carrinho-do-cliente {
+    width: 90%;
+    margin: 10px auto 30px;
+}
+
+.carrinho-do-cliente .total {
+    font-size: 30px;
+}

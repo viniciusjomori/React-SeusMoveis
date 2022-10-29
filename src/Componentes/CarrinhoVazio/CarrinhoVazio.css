@@ -1,0 +1,18 @@
+.carrinho-vazio {
+    text-align: center;
+}
+
+.carrinho-vazio h2, .carrinho-vazio spam {
+    font-size: 40px;
+    display: block;
+    cursor: pointer;
+}
+
+.carrinho-vazio spam:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.carrinho-vazio spam:active {
+    color: purple
+}

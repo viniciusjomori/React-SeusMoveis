@@ -1,0 +1,41 @@
+footer {
+    text-align: center;
+    padding: 1% 0;
+    background: black;
+    margin-top: 15px;
+}
+
+footer label {
+    color: white;
+    font-size: 28px;
+}
+
+footer label, footer input, footer button {
+    margin: 0 0.5%;
+}
+
+footer input {
+    width: 20%;
+    height: 20px;
+    position: relative; bottom: 6px;
+    padding: 2px 6px;
+}
+
+footer button {
+    position: relative; bottom: 6px;
+    height: 24px;
+    cursor: pointer;
+    background: white;
+    border: none;
+}
+
+footer .logo {
+    font-size: 40px;
+    color: white;
+    margin-top: 8px;
+}
+
+footer p {
+    color: white;
+    margin-top: 12px;
+}

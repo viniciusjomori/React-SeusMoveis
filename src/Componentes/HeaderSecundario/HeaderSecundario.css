@@ -1,0 +1,17 @@
+.header-secundario-links {
+    background: rgb(57, 54, 247);
+    text-align: center;
+    z-index:1;
+    cursor: pointer;
+}
+
+.header-secundario-links h2 {
+    display: inline-block;
+    margin: 0 6%;
+    font-size: 25px;
+    padding: 0.8% 0;
+}
+
+.header-secundario-links h2:hover {
+    color: rgb(39, 36, 36)
+}

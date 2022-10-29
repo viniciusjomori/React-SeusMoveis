@@ -1,0 +1,12 @@
+.nenhum-resultado {
+    text-align: center;
+}
+
+.nenhum-resultado h4 {
+    font-size: 40px;
+    margin: 10px 0 -50px 0
+}
+
+.nenhum-resultado .icon {
+    margin-top: 15px;
+}

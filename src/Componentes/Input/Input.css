@@ -1,0 +1,9 @@
+.divInput label, .divInput input {
+    display: block;
+}
+
+.divInput input {
+    width: 100%;
+    font-size: 15px;
+    margin: 0.5% 0 2% 0 
+}

@@ -1,0 +1,39 @@
+.produto-no-carrinho {
+    font-size: 24px;
+    height: 220px;
+}
+
+.produto-no-carrinho img, .produto-no-carrinho h2, .produto-no-carrinho h3, .produto-no-carrinho h4 {
+    vertical-align: middle;
+}
+
+.produto-no-carrinho td {
+    width: 220px;
+    z-index: 1;
+}
+
+.produto-no-carrinho img {
+    object-fit: cover;
+    width: 190px;
+    height: 190px;
+    cursor: pointer;
+}
+
+.produto-no-carrinho .nome {
+    cursor: pointer;
+}
+
+.produto-no-carrinho label, .produto-no-carrinho input {
+    display: inline-block
+}
+
+.produto-no-carrinho input {
+    width: 30px;
+    margin-left: 4px;
+    position: relative; bottom: 2px;
+}
+
+.produto-no-carrinho svg {
+    position: relative; top: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.pagina-do-produto {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.pagina-do-produto img {
+    width: 40%;
+    display: inline-block;
+}
+
+.pagina-do-produto .container-direita {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.pagina-do-produto .nome, .pagina-do-produto .preço, .pagina-do-produto button {
+    margin-bottom: 48px;
+}
+
+.pagina-do-produto .nome {
+    font-size: 40px;
+}
+
+.pagina-do-produto .preço {
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.pagina-do-produto button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: yellow;
+}
+
+.pagina-do-produto button:hover {
+    background: orange;
+}
+
+.pagina-do-produto button:active {
+    background: red;
+}
+
+.pagina-do-produto h5 {
+    font-size: 20px;
+}
+
+.pagina-do-produto .descriçao {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px
+}

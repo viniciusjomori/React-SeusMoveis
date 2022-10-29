@@ -1,0 +1,72 @@
+.slider-produtos {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    max-width: 99%;
+    margin: 0 auto;
+}
+
+.slider-produtos .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 20px;;
+    padding: 10px;
+    text-align: center;
+}
+
+.slider-produtos img, .slider-produtos .nome, .slider-produtos .preço {
+    margin-bottom: 5px;
+}
+
+.slider-produtos img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.slider-produtos .nome {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.slider-produtos .preço {
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson; 
+}
+
+.slider-produtos button {
+    width: 50%;
+    height: 25px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: green;
+    border: none;
+}
+
+.slider-produtos button:hover {
+    background: orange;
+}
+
+.slider-produtos button:active {
+    background: yellow;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.buttons button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.slider-produtos::-webkit-scrollbar {
+    display: none;
+}

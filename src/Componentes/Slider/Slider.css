@@ -1,0 +1,25 @@
+#slider-apresentaçao {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+#slider-apresentaçao .inner {
+    display: flex;
+}
+
+#slider-apresentaçao .item {
+    min-width:900px;
+    padding: 14px;
+}
+
+#slider-apresentaçao .item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+#slider-apresentaçao .carousel {
+    cursor: grab;
+    overflow: hidden
+}

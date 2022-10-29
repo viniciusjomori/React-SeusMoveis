@@ -1,0 +1,20 @@
+.quem-somos {
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quem-somos h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quem-somos p {
+    font-size: 20px;;
+    margin: 10px 0
+}
+
+.quem-somos img {
+    text-align: center
+}

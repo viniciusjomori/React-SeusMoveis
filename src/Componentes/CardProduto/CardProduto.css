@@ -1,0 +1,49 @@
+.card-produto {
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+    padding: 1%;
+    width: 200px;
+    height: 260px;
+    background: white;
+    border-radius: 14px;
+}
+
+.card-produto img, .card-produto .nome, .card-produto .preço, .card-produto button {
+    display: block;
+    margin: 12px auto
+}
+
+.card-produto img {
+    height: 60%;
+    width: 90%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.card-produto .nome {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card-produto .preço {
+    font-size: 15px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.card-produto button {
+    background: orange;
+    border: none;
+    width: 50%;
+    height: 25px;
+    cursor: pointer;
+}
+
+.card-produto button:hover {
+    background: purple;
+}
+
+.card-produto button:active {
+    background: green;
+}
