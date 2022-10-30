@@ -4,6 +4,13 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
-    background: white;
+    background: rgb(255, 232, 197);
+    min-height: 100%;
+    position: relative;
 }

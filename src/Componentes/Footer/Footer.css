@@ -3,6 +3,8 @@ footer {
     padding: 1% 0;
     background: black;
     margin-top: 15px;
+    width: 100%;
+    position: absolute;bottom: -135px;
 }
 
 footer label {
